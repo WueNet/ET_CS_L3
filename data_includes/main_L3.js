@@ -291,7 +291,7 @@ PennController.Sequence( "hello", "preloadTrial","consent", "soundcheck", "demog
 //
 // 8. Thank you screen
 PennController( "final" ,
-                newHtml("bye", "end_screen.html")
+                newHtml("bye", "end_screen_L3.html")
                     .print()
                     .log()
                 ,
