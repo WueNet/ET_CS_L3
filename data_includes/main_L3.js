@@ -201,7 +201,7 @@ PennController.Sequence( "hello", "preloadTrial","consent", "soundcheck", "demog
 //
 //    
 // 6. Trial events
-    PennController.Template( PennController.GetTable("list1.csv"),   // creates a template to be used for multiple trials; will use .csv in chunk_includes
+    PennController.Template( PennController.GetTable("list3.csv"),   // creates a template to be used for multiple trials; will use .csv in chunk_includes
         variable =>
         PennController("trial"
             ,
